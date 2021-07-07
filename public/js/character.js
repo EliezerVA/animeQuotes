@@ -9,7 +9,7 @@ export default class Character{
 
     Data(){
         return ` <div class="Data-list">
-        <h2 class="data-labels"><img id="inf" src="../static/css/image/question.png" title="Press the button Kaonashi"></h2>
+        <h2 class="data-labels"><img id="inf" src="../public/css/image/question.png" title="Press the button Kaonashi"></h2>
         <h2 class="data-labels" id="anime">${this.anime}</h2>
         <h1 class="data-labels" id="character">${this.character}</h1>
         <h2 class="data-labels" id="quote">Quote: ${this.quote}</h2>
